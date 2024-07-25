@@ -58,7 +58,7 @@ Basically, the description can be modified using configuration values stored in 
    the cap on the wrist_3_link. This config file specifies which meshes (both, visual and collision)
    should be used.
 
-The four configuration files have to be passed to `ur_macro.urdf` (more specific to the macro
+The four configuration files have to be passed to `ur_macro.xacro` (more specific to the macro
 defined in that file) which is done inside the `ur.urdf.macro`. Contents of the files are parsed
 inside `ur_common.xacro`.
 
